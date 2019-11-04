@@ -21,3 +21,35 @@
 .bear:hover .right-ear {
   transform: translateY(-10px);
 }
+
+@keyframes left-eye {
+
+  0% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+
+}
+
+@keyframes right-eye {
+
+  0% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+
+}
